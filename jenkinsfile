@@ -10,6 +10,6 @@ pipeline {
         }
     stage('second stage') {
             steps {
-                sh "pwd"
+                sh ""echo pwd""
 }
  }
